@@ -1,0 +1,102 @@
+{
+  "objectid": "biller",
+  "billerid": "BEST00000MUM01",
+  "authenticators": [
+    {
+      "optional": "N",
+      "regex": "^[0-9]{10}$|^[0-9]{9},$",
+      "parameter_name": "Consumer Number",
+      "data_type": "AlphaNumeric",
+      "error_message": "Please enter a valid 10 digit Consumer Number (eg. 7635540315) - For Consumer Number with 9 digits, please append comma (,) at the end of the number (eg. 556591071 to be entered as 556591071,)",
+      "seq": "1"
+    }
+  ],
+  "biller_legal_name": "Brihan Mumbai Electric Supply and Transport Undertaking",
+  "biller_name": "BEST Mumbai",
+  "biller_location": "Mumbai",
+  "biller_category": "Electricity",
+  "biller_reg_address": "BEST Bhavan, Best Marg, Post Box No. 192",
+  "biller_reg_city": "Mumbai",
+  "biller_reg_pin": "400001",
+  "biller_reg_state": "Maharashtra",
+  "biller_reg_country": "India",
+  "biller_mode": "ONLINE",
+  "allowed_payment_methods": [
+    {
+      "paylater_allowed": "N",
+      "payment_method": "UPI",
+      "min_limit": "1.00",
+      "autopay_allowed": "N"
+    }
+  ],
+  "payment_channels": [
+    {
+      "payment_channel": "ATM",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "Agent",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "BankBranch",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "BusinessCorrespondent",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "Internet",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "InternetBanking",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "Kiosk",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "MPOS",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "Mobile",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "MobileBanking",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    },
+    {
+      "payment_channel": "POS",
+      "min_limit": "1.00",
+      "max_limit": "5000000.00"
+    }
+  ],
+  "biller_status": "ACTIVE",
+  "biller_created_date": "16-11-2021 06:25:17",
+  "biller_lastmodified_date": "16-12-2020 00:00:00",
+  "biller_logo": "https://payments.billdesk.com/hg/images/billerlogo/BEST00000MUM01.gif",
+  "biller_bill_copy": "https://payments.billdesk.com/hg/images/billcopy/BEST00000MUM01.gif",
+  "biller_type": "BILLER",
+  "partial_pay": "N",
+  "pay_after_duedate": "Y",
+  "online_validation": "Y",
+  "isbillerbbps": "Y",
+  "paymentamount_validation": "N",
+  "bbps_billerid": "BEST00000MUM01",
+  "bill_presentment": "Y"
+}
